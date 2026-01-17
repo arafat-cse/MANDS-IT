@@ -1,0 +1,322 @@
+{
+  "topbar": {
+    "address": "23 Ranking Street, New York",
+    "email": "Email@Example.com",
+    "note": "Note : We help you to Grow your Business",
+    "social": [
+      {
+        "icon": "fab fa-facebook-f",
+        "url": ""
+      },
+      {
+        "icon": "fab fa-twitter",
+        "url": ""
+      },
+      {
+        "icon": "fab fa-instagram",
+        "url": ""
+      },
+      {
+        "icon": "fab fa-linkedin-in",
+        "url": ""
+      }
+    ]
+  },
+  "navbar": {
+    "logo": "/img/mandsit.png",
+    "links": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "About",
+        "url": "#about"
+      },
+      {
+        "name": "Services",
+        "url": "#services"
+      },
+      {
+        "name": "Blog Posts",
+        "url": "#blog"
+      },
+      {
+        "name": "Contact",
+        "url": "#contact"
+      }
+    ],
+    "phone": "+ 0123 456 7890"
+  },
+  "carousel": [
+    {
+      "img": "img/carousel-1.jpg",
+      "subtitle": "Best IT Solutions",
+      "title": "An Innovative IT Solutions Agency",
+      "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt."
+    },
+    {
+      "img": "img/carousel-2.jpg",
+      "subtitle": "Best IT Solutions",
+      "title": "Quality Digital Services You Really Need!",
+      "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt."
+    }
+  ],
+  "facts": [
+    {
+      "count": 99,
+      "text": "Success in getting happy customer"
+    },
+    {
+      "count": 25,
+      "text": "Thousands of successful business"
+    },
+    {
+      "count": 120,
+      "text": "Total clients who love Mands It"
+    },
+    {
+      "count": 5,
+      "text": "Stars reviews given by satisfied clients"
+    }
+  ],
+  "about": {
+    "img1": "img/about-1.jpg",
+    "img2": "img/about-2.jpg",
+    "subtitle": "About Us",
+    "title": "About Mands It Agency And It's Innovative IT Solutions",
+    "desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.",
+    "desc2": "Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus."
+  },
+  "services": {
+    "subtitle": "Our Services",
+    "title": "Services Built Specifically For Your Business",
+    "items": [
+      {
+        "icon": "fa fa-code",
+        "title": "Web Design",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+      },
+      {
+        "icon": "fa fa-file-code",
+        "title": "Web Development",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+      },
+      {
+        "icon": "fa fa-external-link-alt",
+        "title": "UI/UX Design",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+      },
+      {
+        "icon": "fas fa-user-secret",
+        "title": "Web Security",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+      },
+      {
+        "icon": "fa fa-envelope-open",
+        "title": "Digital Marketing",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+      },
+      {
+        "icon": "fas fa-laptop",
+        "title": "Programming",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+      }
+    ]
+  },
+  "projects": {
+    "subtitle": "Our Project",
+    "title": "Our Recently Completed Projects",
+    "items": [
+      {
+        "img": "img/blog-1.jpg",
+        "title": "E-commerce Platform",
+        "category": "Web Design"
+      },
+      {
+        "img": "img/blog-2.jpg",
+        "title": "Cyber Security Audit",
+        "category": "Cyber Security"
+      },
+      {
+        "img": "img/blog-3.jpg",
+        "title": "Mobile Banking App",
+        "category": "Mobile Info"
+      },
+      {
+        "img": "img/about-1.jpg",
+        "title": "Corporate Website",
+        "category": "Web Development"
+      },
+      {
+        "img": "img/about-2.jpg",
+        "title": "Digital Marketing Campaign",
+        "category": "Digital Marketing"
+      },
+      {
+        "img": "img/carousel-1.jpg",
+        "title": "SEO Optimization",
+        "category": "Keyword Research"
+      }
+    ]
+  },
+  "clients": {
+    "subtitle": "OUR CLIENTS",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet",
+    "logos": [
+      {
+        "name": "WORKAPPLY",
+        "img": null
+      },
+      {
+        "name": "FUZION",
+        "img": null
+      },
+      {
+        "name": "SolidSociety",
+        "img": null
+      },
+      {
+        "name": "DATAXCHANGE",
+        "img": null
+      },
+      {
+        "name": "BluePhlare",
+        "img": null
+      },
+      {
+        "name": "TechCom",
+        "img": null
+      }
+    ]
+  },
+  "blog": {
+    "subtitle": "Our Blog",
+    "title": "Latest Blog & News",
+    "items": [
+      {
+        "img": "img/blog-1.jpg",
+        "category": "Web Design",
+        "author": "Daniel Martin",
+        "date": "24 March 2023",
+        "title": "Lorem ipsum dolor sit amet elit...",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
+      },
+      {
+        "img": "img/blog-2.jpg",
+        "category": "Development",
+        "author": "Daniel Martin",
+        "date": "23 April 2023",
+        "title": "Lorem ipsum dolor sit amet elit...",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
+      },
+      {
+        "img": "img/blog-3.jpg",
+        "category": "Mobile App",
+        "author": "Daniel Martin",
+        "date": "30 Jan 2023",
+        "title": "Lorem ipsum dolor sit amet elit...",
+        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
+      }
+    ]
+  },
+  "team": {
+    "subtitle": "Our Team",
+    "title": "Meet our expert Team",
+    "members": [
+      {
+        "name": "Full Name",
+        "designation": "Designation",
+        "img": "img/team-1.jpg",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Full Name",
+        "designation": "Designation",
+        "img": "img/team-2.jpg",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Full Name",
+        "designation": "Designation",
+        "img": "img/team-3.jpg",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Full Name",
+        "designation": "Designation",
+        "img": "img/team-3.jpg",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Full Name",
+        "designation": "Designation",
+        "img": "img/team-3.jpg",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "Contact for any query",
+    "address": "23 rank Str, NY",
+    "phone": "+012 3456 7890",
+    "email": "info@example.com",
+    "mapUrl": "https://www.google.com/maps/embed?pb=..."
+  },
+  "footer": {
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.",
+    "links": [
+      {
+        "name": "About us",
+        "url": ""
+      },
+      {
+        "name": "Contact us",
+        "url": ""
+      },
+      {
+        "name": "Our Services",
+        "url": ""
+      },
+      {
+        "name": "Our Projects",
+        "url": ""
+      },
+      {
+        "name": "Latest Blog",
+        "url": ""
+      }
+    ],
+    "contact": {
+      "address": "123 Street, New York, USA",
+      "phone": "+123 456 7890",
+      "email": "info@exmple.con"
+    }
+  }
+}
