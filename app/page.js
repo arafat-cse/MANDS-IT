@@ -8,7 +8,7 @@ export default function Home() {
     <>
       {/* Carousel Start */}
       <div className="container-fluid px-0">
-        <div id="carouselId" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselId" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
           <ol className="carousel-indicators">
             <li data-bs-target="#carouselId" data-bs-slide-to="0" className="active" aria-current="true" aria-label="First slide"></li>
             <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
