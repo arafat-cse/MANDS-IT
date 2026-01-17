@@ -48,21 +48,21 @@ export default function Team() {
         </div>
         <Slider {...settings} className="wow fadeIn" data-wow-delay=".5s">
           {data.team.members.map((member, index) => (
-            <div key={index} className="px-3"> {/* Added padding for spacing between slides */}
-              <div className="team-item bg-light pb-4">
+            <div key={index} className="px-3">
+              <div className="team-item">
                 <div className="team-header"></div>
                 <div className="team-img-container">
                   <img src={member.img} className="team-img" alt={member.name} />
                 </div>
-                <div className="text-center mt-3">
-                  <h4 className="mb-0">{member.name}</h4>
-                  <span className="text-secondary">{member.designation}</span>
-                </div>
-                <div className="d-flex justify-content-center mt-3">
-                  <a className="team-social-icon" href={member.social.facebook}><i className="fab fa-facebook-f"></i></a>
-                  <a className="team-social-icon" href={member.social.twitter}><i className="fab fa-twitter"></i></a>
-                  <a className="team-social-icon" href={member.social.instagram}><i className="fab fa-instagram"></i></a>
-                  <a className="team-social-icon" href={member.social.linkedin}><i className="fab fa-linkedin-in"></i></a>
+                <div className="team-content pb-4">
+                  <h4>{member.name}</h4>
+                  <span className="team-designation">{member.designation}</span>
+                  <div className="d-flex justify-content-center">
+                    <a className="team-social-icon" href={member.social.facebook}><i className="fab fa-facebook-f"></i></a>
+                    <a className="team-social-icon" href={member.social.twitter}><i className="fab fa-twitter"></i></a>
+                    <a className="team-social-icon" href={member.social.instagram}><i className="fab fa-instagram"></i></a>
+                    <a className="team-social-icon" href={member.social.linkedin}><i className="fab fa-linkedin-in"></i></a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         <link href="/lib/animate/animate.min.css" rel="stylesheet" />
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/css/style.css" rel="stylesheet" />
+        <link href="/css/team-style.css" rel="stylesheet" />
       </head>
       <body>
         <div id="spinner" className="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
