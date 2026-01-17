@@ -11,6 +11,11 @@ export const metadata = {
   description: "Mands It IT Solutions",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
