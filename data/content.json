@@ -1,12 +1,12 @@
 {
   "topbar": {
-    "address": "23 Ranking Street, New York",
-    "email": "Email@Example.com",
+    "address": "23 Shawrapara, Dhaka",
+    "email": "info@mandsit.com",
     "note": "Note : We help you to Grow your Business",
     "social": [
       {
         "icon": "fab fa-facebook-f",
-        "url": ""
+        "url": "https://www.facebook.com/mandsIT"
       },
       {
         "icon": "fab fa-twitter",
@@ -46,20 +46,20 @@
         "url": "#contact"
       }
     ],
-    "phone": "+ 0123 456 7890"
+    "phone": "+8801756262626"
   },
   "carousel": [
     {
       "img": "img/carousel-1.jpg",
       "subtitle": "Best IT Solutions",
       "title": "An Innovative IT Solutions Agency",
-      "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt."
+      "desc": "mandsit services are the best in the market. "
     },
     {
       "img": "img/carousel-2.jpg",
       "subtitle": "Best IT Solutions",
       "title": "Quality Digital Services You Really Need!",
-      "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt."
+      "desc": "mandsit services are the best in the market."
     }
   ],
   "facts": [

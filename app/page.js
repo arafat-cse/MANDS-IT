@@ -23,7 +23,7 @@ export default function Home() {
                     <h1 className="text-white display-1 mb-4 animated fadeInRight">{item.title}</h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown">{item.desc}</p>
                     <a href="" className="me-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
-                    <a href="" className="ms-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                    <a href="#contact" className="ms-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
                   </div>
                 </div>
               </div>
