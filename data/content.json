@@ -23,7 +23,7 @@
     ]
   },
   "navbar": {
-    "logo": "/img/mandsit.png",
+    "logo": "/img/mandsit.jpeg",
     "links": [
       {
         "name": "Home",
@@ -166,27 +166,33 @@
     "logos": [
       {
         "name": "WORKAPPLY",
-        "img": null
+        "img": "https://placehold.co/200x80?text=WORKAPPLY",
+        "icon": "fas fa-building"
       },
       {
         "name": "FUZION",
-        "img": null
+        "img": "https://placehold.co/200x80?text=FUZION",
+        "icon": "fas fa-layer-group"
       },
       {
         "name": "SolidSociety",
-        "img": null
+        "img": "https://placehold.co/200x80?text=SolidSociety",
+        "icon": "fas fa-users"
       },
       {
         "name": "DATAXCHANGE",
-        "img": null
+        "img": "https://placehold.co/200x80?text=DATAXCHANGE",
+        "icon": "fas fa-database"
       },
       {
         "name": "BluePhlare",
-        "img": null
+        "img": "https://placehold.co/200x80?text=BluePhlare",
+        "icon": "fas fa-fire"
       },
       {
         "name": "TechCom",
-        "img": null
+        "img": "https://placehold.co/200x80?text=TechCom",
+        "icon": "fas fa-laptop-code"
       }
     ]
   },
@@ -227,7 +233,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "img/team-1.jpg",
+        "img": "https://placehold.co/300x400?text=Member+1",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -238,7 +244,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "img/team-2.jpg",
+        "img": "https://placehold.co/300x400?text=Member+2",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -249,7 +255,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "img/team-3.jpg",
+        "img": "https://placehold.co/300x400?text=Member+3",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -260,7 +266,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "img/team-3.jpg",
+        "img": "https://placehold.co/300x400?text=Member+4",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -271,7 +277,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "img/team-3.jpg",
+        "img": "https://placehold.co/300x400?text=Member+5",
         "social": {
           "facebook": "#",
           "twitter": "#",

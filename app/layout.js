@@ -1,12 +1,14 @@
 import "./globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Script from 'next/script';
 import Topbar from "./components/Topbar";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Mands It - IT Solutions Website Template",
-  description: "Mands It IT Solutions Website",
+  title: "Mands It - IT Solutions",
+  description: "Mands It IT Solutions",
 };
 
 export default function RootLayout({ children }) {

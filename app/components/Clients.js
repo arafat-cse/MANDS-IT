@@ -1,8 +1,7 @@
 "use client";
 import data from '../../data/content.json';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// css imported in layout.js
 
 export default function Clients() {
   const settings = {

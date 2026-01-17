@@ -12,7 +12,7 @@ export default function Navbar() {
         <nav className="navbar navbar-dark navbar-expand-lg py-0">
           <Link href="/" className="navbar-brand d-flex align-items-center">
             <img src={data.navbar.logo} alt="Logo" style={{ maxHeight: '50px', marginRight: '10px' }} />
-            <h1 className="text-white fw-bold d-block m-0">Mands<span className="text-secondary">It</span> </h1>
+            {/* <h1 className="text-white fw-bold d-block m-0">Mands<span className="text-secondary">It</span> </h1> */}
           </Link>
           <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
