@@ -74,3 +74,93 @@
 }
 
 /*** Team Section End ***/
+
+/* Mobile Responsive Fixes - Showing 3 smaller cards */
+@media (max-width: 768px) {
+  .team-item {
+    max-width: 100%;
+    margin: 0 auto 15px;
+  }
+
+  .team-item .team-header {
+    height: 80px;
+  }
+
+  .team-item .team-img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #26d48c;
+  }
+
+  .team-item .team-img-container {
+    margin-top: -40px;
+  }
+
+  .team-item h4 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .team-item .team-designation {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .team-social-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 3px;
+    font-size: 11px;
+  }
+
+  .team-content {
+    padding-bottom: 10px !important;
+  }
+
+  .slick-slide {
+    padding: 0 5px;
+  }
+
+  .slick-list {
+    margin: 0 -5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-item .team-header {
+    height: 60px;
+  }
+
+  .team-item .team-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .team-item .team-img-container {
+    margin-top: -30px;
+  }
+
+  .team-item h4 {
+    font-size: 11px;
+    margin-top: 8px;
+  }
+
+  .team-item .team-designation {
+    font-size: 9px;
+  }
+
+  .team-social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    font-size: 9px;
+  }
+
+  .slick-slide {
+    padding: 0 3px;
+  }
+
+  .slick-list {
+    margin: 0 -3px;
+  }
+}
