@@ -47,10 +47,10 @@ export default function Footer() {
         <hr className="text-light mt-5 mb-4" />
         <div className="row">
           <div className="col-md-6 text-center text-md-start">
-            <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>Your Site Name</a>, All right reserved.</span>
+            <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>{new Date().getFullYear()} </a>, All right reserved.</span>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <span className="text-light">Designed By <a href="https://htmlcodex.com" className="text-secondary">HTML Codex</a></span>
+            <span className="text-light">Designed By <a href="https://mandsit.com" className="text-secondary">Mands It</a></span>
           </div>
         </div>
       </div>

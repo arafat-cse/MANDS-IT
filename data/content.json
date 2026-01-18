@@ -233,7 +233,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+1",
+        "img": "/img/team.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -244,7 +244,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+2",
+        "img": "/img/team.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -255,7 +255,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+3",
+        "img": "/img/team.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -266,7 +266,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+4",
+        "img": "/img/team.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -277,7 +277,7 @@
       {
         "name": "Full Name",
         "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+5",
+        "img": "/img/team.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -320,9 +320,9 @@
       }
     ],
     "contact": {
-      "address": "123 Street, New York, USA",
-      "phone": "+123 456 7890",
-      "email": "info@exmple.con"
+      "address": "23 Shawrapara, Dhaka",
+      "phone": "+880 123 456 7890",
+      "email": "info@mandsit.com"
     }
   }
 }
