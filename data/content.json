@@ -42,6 +42,14 @@
         "url": "#blog"
       },
       {
+        "name": "Team",
+        "url": "#team"
+      },
+      {
+        "name": "Projects",
+        "url": "#projects"
+      },
+      {
         "name": "Contact",
         "url": "#contact"
       }
@@ -290,9 +298,9 @@
   "contact": {
     "subtitle": "Get In Touch",
     "title": "Contact for any query",
-    "address": "23 rank Str, NY",
-    "phone": "+012 3456 7890",
-    "email": "info@example.com",
+    "address": "23 Shawrapara, Dhaka",
+    "phone": "+880 123 456 7890",
+    "email": "info@mandsit.com",
     "mapUrl": "https://www.google.com/maps/embed?pb=..."
   },
   "footer": {

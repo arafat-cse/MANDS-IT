@@ -11,10 +11,17 @@ export default function Footer() {
             </a>
             <p className="mt-4 text-light">{data.footer.desc}</p>
             <div className="d-flex hightech-link">
-              <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-facebook-f text-primary"></i></a>
-              <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-twitter text-primary"></i></a>
-              <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-instagram text-primary"></i></a>
-              <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-0"><i className="fab fa-linkedin-in text-primary"></i></a>
+              {data.topbar.social.map((social, index) => (
+                <a
+                  key={index}
+                  href={social.url || "#"}
+                  className={`btn-light nav-fill btn btn-square rounded-circle ${index === data.topbar.social.length - 1 ? 'me-0' : 'me-2'}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className={`${social.icon} text-primary`}></i>
+                </a>
+              ))}
             </div>
           </div>
           <div className="col-lg-3 col-md-6">

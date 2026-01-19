@@ -33,10 +33,10 @@ export default function Team() {
                   <h4>{member.name}</h4>
                   <span className="team-designation">{member.designation}</span>
                   <div className="d-flex justify-content-center">
-                    <a className="team-social-icon" href={member.social.facebook}><i className="fab fa-facebook-f"></i></a>
-                    <a className="team-social-icon" href={member.social.twitter}><i className="fab fa-twitter"></i></a>
-                    <a className="team-social-icon" href={member.social.instagram}><i className="fab fa-instagram"></i></a>
-                    <a className="team-social-icon" href={member.social.linkedin}><i className="fab fa-linkedin-in"></i></a>
+                    <a className="team-social-icon" href={member.social.facebook} target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+                    <a className="team-social-icon" href={member.social.twitter} target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                    <a className="team-social-icon" href={member.social.instagram} target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                    <a className="team-social-icon" href={member.social.linkedin} target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
                   </div>
                 </div>
               </div>

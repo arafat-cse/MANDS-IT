@@ -143,9 +143,11 @@ export default function Home() {
                         <p className="text-white px-2">Share<i className="fa fa-arrow-right ms-3"></i></p>
                       </div>
                       <div className="blog-icon-2">
-                        <a href="" className="btn me-1"><i className="fab fa-facebook-f text-white"></i></a>
-                        <a href="" className="btn me-1"><i className="fab fa-twitter text-white"></i></a>
-                        <a href="" className="btn me-1"><i className="fab fa-instagram text-white"></i></a>
+                        {data.topbar.social.slice(0, 3).map((social, idx) => (
+                          <a key={idx} href={social.url || "#"} className="btn me-1" target="_blank" rel="noopener noreferrer">
+                            <i className={`${social.icon} text-white`}></i>
+                          </a>
+                        ))}
                       </div>
                     </div>
                   </div>
