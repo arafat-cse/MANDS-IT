@@ -2,6 +2,7 @@ import data from '../data/content.json';
 import Team from './components/Team';
 import Projects from './components/Projects';
 import Clients from './components/Clients';
+import ProgrammingUses from './components/Programing-uses';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
                     <h6 className="text-secondary h4 animated fadeInUp">{item.subtitle}</h6>
                     <h1 className="text-white display-1 mb-4 animated fadeInRight">{item.title}</h1>
                     <p className="mb-4 text-white fs-5 animated fadeInDown">{item.desc}</p>
-                    <a href="" className="me-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                    <a href="#" className="me-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
                     <a href="#contact" className="ms-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
                   </div>
                 </div>
@@ -75,7 +76,8 @@ export default function Home() {
               <h1 className="mb-4">{data.about.title}</h1>
               <p>{data.about.desc1}</p>
               <p className="mb-4">{data.about.desc2}</p>
-              <a href="" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+              <p className="mb-4">{data.about.desc3}</p>
+              <a href="#" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
             </div>
           </div>
         </div>
@@ -108,6 +110,10 @@ export default function Home() {
         </div>
       </div>
       {/* Services End */}
+
+      {/* Programming Uses Start */}
+      <ProgrammingUses />
+      {/* Programming Uses End */}
 
       {/* Projects Start */}
       <Projects />
