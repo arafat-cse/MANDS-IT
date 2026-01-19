@@ -154,6 +154,23 @@
 
 /*** Navbar End ***/
 
+html {
+    scroll-padding-top: 100px;
+}
+
+.sticky-top {
+    transition: .5s;
+}
+
+.sticky-top.shadow-sm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1020;
+    background: var(--bs-primary) !important;
+}
+
 
 /*** Carousel Start ***/
 

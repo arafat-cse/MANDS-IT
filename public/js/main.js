@@ -30,6 +30,29 @@
     });
 
 
+    // Sticky Navbar
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 45) {
+            $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+        } else {
+            $('.sticky-top').removeClass('shadow-sm').css('top', '0px');
+        }
+    });
+
+    // Handle initial state
+    if ($(window).scrollTop() > 45) {
+        $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+    }
+
+
+    // Close mobile menu on click
+    $(document).on('click', '.navbar-nav .nav-link', function () {
+        if ($('.navbar-toggler').is(':visible')) {
+            $('.navbar-collapse').collapse('hide');
+        }
+    });
+
+
     // Fact Counter
     $(document).ready(function () {
         $('.counter-value').each(function () {
