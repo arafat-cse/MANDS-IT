@@ -6,11 +6,26 @@ import data from '../../data/content.json';
 export default function Navbar() {
   const pathname = usePathname();
 
+  const closeMenu = () => {
+    if (typeof window !== 'undefined') {
+      const navbarCollapse = document.getElementById('navbarCollapse');
+      if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+        const bootstrap = window.bootstrap;
+        if (bootstrap) {
+          const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+            toggle: false
+          });
+          bsCollapse.hide();
+        }
+      }
+    }
+  };
+
   return (
-    <div className="container-fluid bg-primary">
+    <div className="container-fluid bg-primary sticky-top">
       <div className="container">
         <nav className="navbar navbar-dark navbar-expand-lg py-0">
-          <Link href="/" className="navbar-brand d-flex align-items-center">
+          <Link href="/" className="navbar-brand d-flex align-items-center" onClick={closeMenu}>
             <img src={data.navbar.logo} alt="Logo" style={{ maxHeight: '50px', marginRight: '10px' }} />
             {/* <h1 className="text-white fw-bold d-block m-0">Mands<span className="text-secondary">It</span> </h1> */}
           </Link>
@@ -26,6 +41,7 @@ export default function Navbar() {
                     key={index}
                     href={link.url}
                     className={`nav-item nav-link ${isActive ? 'active text-secondary' : ''}`}
+                    onClick={closeMenu}
                   >
                     {link.name}
                   </Link>

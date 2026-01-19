@@ -2,7 +2,7 @@ import data from '../../data/content.json';
 
 export default function Projects() {
   return (
-    <div className="container-fluid py-5 my-5">
+    <div className="container-fluid py-5 my-5" id="projects">
       <div className="container pt-5">
         <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
           <h5 className="text-primary">{data.projects.subtitle}</h5>

@@ -85,7 +85,7 @@ export default function Home() {
       {/* Services Start */}
       <div className="container-fluid services py-5 mb-5" id="services">
         <div className="container">
-          <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
+          <div className="text-center mx-auto pb-5 mt-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
             <h5 className="text-primary">{data.services.subtitle}</h5>
             <h1>{data.services.title}</h1>
           </div>
@@ -124,7 +124,7 @@ export default function Home() {
       {/* Blog Start */}
       <div className="container-fluid blog py-5 mb-5" id="blog">
         <div className="container">
-          <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
+          <div className="text-center mx-auto pb-5 mt-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
             <h5 className="text-primary">{data.blog.subtitle}</h5>
             <h1>{data.blog.title}</h1>
           </div>
@@ -172,7 +172,7 @@ export default function Home() {
       {/* Contact Start */}
       <div className="container-fluid py-5 mb-5" id="contact">
         <div className="container">
-          <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
+          <div className="text-center mx-auto pb-5 mt-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
             <h5 className="text-primary">{data.contact.subtitle}</h5>
             <h1 className="mb-3">{data.contact.title}</h1>
           </div>

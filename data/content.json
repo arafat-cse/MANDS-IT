@@ -38,16 +38,12 @@
         "url": "#services"
       },
       {
-        "name": "Blog Posts",
-        "url": "#blog"
-      },
-      {
-        "name": "Team",
-        "url": "#team"
-      },
-      {
         "name": "Projects",
         "url": "#projects"
+      },
+      {
+        "name": "Blog Posts",
+        "url": "#blog"
       },
       {
         "name": "Contact",
