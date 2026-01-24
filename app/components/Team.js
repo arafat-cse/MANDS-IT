@@ -27,7 +27,7 @@ export default function Team() {
               <div className="team-item">
                 <div className="team-header"></div>
                 <div className="team-img-container">
-                  <img src={member.img} className="team-img" alt={member.name} />
+                  <img src={`/${member.img}`} className="team-img" alt={member.name} />
                 </div>
                 <div className="team-content pb-4">
                   <h4>{member.name}</h4>

@@ -347,9 +347,9 @@
     "title": "Meet our expert Team",
     "members": [
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "img/blog-1.jpg",
+        "name": "Amirul Islam",
+        "designation": "Founder & CEO ( MandsIT )",
+        "img": "img/team/amirul.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -358,9 +358,9 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "img/blog-2.jpg",
+        "name": "Mehedi Hassan",
+        "designation": "Head of Product ( MandsIT)",
+        "img": "img/team/mehedi.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -369,9 +369,9 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "img/blog-1.jpg",
+        "name": "Syed Bacchu",
+        "designation": "Sr. Software Engineer ( Backend) ( MandsIT )",
+        "img": "img/team/bacchu.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -380,9 +380,9 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "img/blog-1.jpg",
+        "name": "Md. Mahbubul Alam",
+        "designation": "Software Engineer ( Flutter App Team) ( MandsIT )",
+        "img": "img/team/mahbubul.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -391,9 +391,31 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "img/blog-1.jpg",
+        "name": "Arafat Rahman",
+        "designation": "Junior Software Engineer ( MandsIT )",
+        "img": "img/team/arafat.png",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Md. Samaul Islam",
+        "designation": "Full Stack Software Engineer ( MandsIT )",
+        "img": "img/team/samaul.png",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Alina Khanam",
+        "designation": "Support and Implementation Engineer ( MandsIT )",
+        "img": "img/team/alina.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
