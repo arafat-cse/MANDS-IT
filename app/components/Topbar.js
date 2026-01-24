@@ -10,11 +10,18 @@ export default function Topbar() {
             <small className="me-3 text-white-50"><a href="#"><i className="fas fa-envelope me-2 text-secondary"></i></a>{data.topbar.email}</small>
           </div>
           <div id="note" className="text-secondary d-none d-xl-flex"><small>{data.topbar.note}</small></div>
-          <div className="top-link">
-            <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle"><i className="fab fa-facebook-f text-primary"></i></a>
-            <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle"><i className="fab fa-twitter text-primary"></i></a>
-            <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle"><i className="fab fa-instagram text-primary"></i></a>
-            <a href="" className="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i className="fab fa-linkedin-in text-primary"></i></a>
+          <div className="top-link">    
+            {data.topbar.social.map((social, index) => (
+              <a
+                key={index}
+                href={social.url || "#"}
+                className={`bg-light nav-fill btn btn-sm-square rounded-circle ${index === data.topbar.social.length - 1 ? 'me-0' : ''}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={`${social.icon} text-primary`}></i>
+              </a>
+            ))}
           </div>
         </div>
       </div>

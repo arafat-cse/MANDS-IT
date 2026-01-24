@@ -10,38 +10,68 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
-    
-    
-   // Back to top button
-   $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
-        $('.back-to-top').fadeIn('slow');
-    } else {
-        $('.back-to-top').fadeOut('slow');
-    }
+
+
+    // Back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
 
-     // Fact Counter
-     $(document).ready(function(){
-        $('.counter-value').each(function(){
-            $(this).prop('Counter',0).animate({
+    // Sticky Navbar
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 45) {
+            $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+        } else {
+            $('.sticky-top').removeClass('shadow-sm').css('top', '0px');
+        }
+    });
+
+    // Handle initial state
+    if ($(window).scrollTop() > 45) {
+        $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+    }
+
+
+    // Close mobile menu on click
+    $(document).on('click', '.navbar-nav .nav-link', function () {
+        if ($('.navbar-toggler').is(':visible')) {
+            $('.navbar-collapse').collapse('hide');
+        }
+    });
+
+
+    // Fact Counter
+    $(document).ready(function () {
+        $('.counter-value').each(function () {
+            $(this).prop('Counter', 0).animate({
                 Counter: $(this).text()
-            },{
+            }, {
                 duration: 2000,
                 easing: 'easeInQuad',
-                step: function (now){
+                step: function (now) {
                     $(this).text(Math.ceil(now));
                 }
             });
+        });
+
+        // Initialize carousel with auto-slide
+        $('#carouselId').carousel({
+            interval: 5000,
+            ride: 'carousel',
+            pause: false
         });
     });
 

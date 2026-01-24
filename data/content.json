@@ -1,7 +1,7 @@
 {
   "topbar": {
     "address": "23 Shawrapara, Dhaka",
-    "email": "info@mandsit.com",
+    "email": "mandsitbd@gmail.com",
     "note": "Note : We help you to Grow your Business",
     "social": [
       {
@@ -38,15 +38,15 @@
         "url": "#services"
       },
       {
-        "name": "Blog Posts",
-        "url": "#blog"
+        "name": "Projects",
+        "url": "#projects"
       },
       {
         "name": "Contact",
         "url": "#contact"
       }
     ],
-    "phone": "+8801756262626"
+    "phone": "+880 1923867362"
   },
   "carousel": [
     {
@@ -81,46 +81,153 @@
     }
   ],
   "about": {
-    "img1": "img/about-1.jpg",
-    "img2": "img/about-2.jpg",
+    "img1": "img/about/about-1.jpg",
+    "img2": "img/about/about-2.jpg",
     "subtitle": "About Us",
     "title": "About Mands It Agency And It's Innovative IT Solutions",
-    "desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.",
-    "desc2": "Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus."
+    "desc1": "MandsIT Team is a dynamic and innovative technology Team that specializes in providing cutting-edge software solutions and services to clients across various industries. Founded with a vision to empower businesses with transformative digital solutions, MandsIT has emerged as a trusted partner for organizations seeking to leverage technology to drive growth, efficiency, and competitive advantage.",
+    "desc2": "One of the key strengths of MandsIT lies in its team of highly skilled and experienced professionals who are passionate about technology and dedicated to delivering excellence in every project they undertake. From software engineers and developers to project managers and consultants, the MandsIT team embodies a culture of collaboration, innovation, and continuous learning, ensuring that clients receive best-in-class solutions and unparalleled support throughout their journey.",
+    "desc3": "Overall, MandsIT stands out as a trusted partner for businesses seeking innovative software solutions and unparalleled technical expertise. With its customer-centric approach, commitment to excellence, and relentless pursuit of innovation, MandsIT continues to empower organizations to thrive in the digital age."
   },
   "services": {
     "subtitle": "Our Services",
     "title": "Services Built Specifically For Your Business",
     "items": [
       {
+        "icon": "fa fa-mobile",
+        "title": "App Design",
+        "desc": "We create Android and iOS stunning and user-friendly mobile app designs that enhance user engagement and drive business growth."
+      },
+      {
         "icon": "fa fa-code",
         "title": "Web Design",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+        "desc": "We create stunning and user-friendly website designs that enhance user engagement and drive business growth."
       },
       {
         "icon": "fa fa-file-code",
         "title": "Web Development",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+        "desc": "We create stunning and user-friendly website designs that enhance user engagement and drive business growth."
       },
       {
         "icon": "fa fa-external-link-alt",
         "title": "UI/UX Design",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+        "desc": "We create stunning and user-friendly website designs that enhance user engagement and drive business growth."
       },
       {
         "icon": "fas fa-user-secret",
         "title": "Web Security",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+        "desc": "We provide comprehensive web security solutions to protect your website from cyber threats and ensure data integrity."
       },
       {
         "icon": "fa fa-envelope-open",
         "title": "Digital Marketing",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+        "desc": "We provide comprehensive digital marketing solutions to help your business grow online."
+      }
+    ]
+  },
+  "programmingUses": {
+    "subtitle": "Our Tech Stack",
+    "title": "Technologies We Use",
+    "categories": [
+      {
+        "name": "Frontend Development",
+        "items": [
+          {
+            "name": "Flutter",
+            "icon": "fas fa-mobile-alt",
+            "color": "#02569B"
+          },
+          {
+            "name": "Next.js",
+            "icon": "fab fa-react",
+            "color": "#000000"
+          },
+          {
+            "name": "React.js",
+            "icon": "fab fa-react",
+            "color": "#61DAFB"
+          },
+          {
+            "name": "Angular.js",
+            "icon": "fab fa-angular",
+            "color": "#DD0031"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "fab fa-js",
+            "color": "#F7DF1E"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "fab fa-css3-alt",
+            "color": "#06B6D4"
+          }
+        ]
       },
       {
-        "icon": "fas fa-laptop",
-        "title": "Programming",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt."
+        "name": "Backend Development",
+        "items": [
+          {
+            "name": "PHP",
+            "icon": "fab fa-php",
+            "color": "#777BB4"
+          },
+          {
+            "name": "Laravel",
+            "icon": "fab fa-laravel",
+            "color": "#FF2D20"
+          },
+          {
+            "name": "Node.js",
+            "icon": "fab fa-node-js",
+            "color": "#339933"
+          },
+          {
+            "name": "ASP.NET C#",
+            "icon": "fas fa-code",
+            "color": "#512BD4"
+          },
+          {
+            "name": "Python",
+            "icon": "fab fa-python",
+            "color": "#3776AB"
+          }
+        ]
+      },
+      {
+        "name": "Database & Server",
+        "items": [
+          {
+            "name": "MySQL",
+            "icon": "fas fa-database",
+            "color": "#4479A1"
+          },
+          {
+            "name": "MS SQL",
+            "icon": "fas fa-database",
+            "color": "#CC2927"
+          },
+          {
+            "name": "PostgreSQL",
+            "icon": "fas fa-database",
+            "color": "#336791"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "fas fa-database",
+            "color": "#47A248"
+          },
+          {
+            "name": "Firebase",
+            "icon": "fas fa-database",
+            "color": "#FF6B00"
+          },
+          {
+            "name": "Nginx",
+            "icon": "fas fa-server",
+            "color": "#269539"
+          }
+        ]
       }
     ]
   },
@@ -154,9 +261,14 @@
         "category": "Digital Marketing"
       },
       {
-        "img": "img/carousel-1.jpg",
+        "img": "img/about-2.jpg",
         "title": "SEO Optimization",
         "category": "Keyword Research"
+      },
+      {
+        "img": "img/about-1.jpg",
+        "title": "Mobile App Development",
+        "category": "Mobile App"
       }
     ]
   },
@@ -196,44 +308,14 @@
       }
     ]
   },
-  "blog": {
-    "subtitle": "Our Blog",
-    "title": "Latest Blog & News",
-    "items": [
-      {
-        "img": "img/blog-1.jpg",
-        "category": "Web Design",
-        "author": "Daniel Martin",
-        "date": "24 March 2023",
-        "title": "Lorem ipsum dolor sit amet elit...",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
-      },
-      {
-        "img": "img/blog-2.jpg",
-        "category": "Development",
-        "author": "Daniel Martin",
-        "date": "23 April 2023",
-        "title": "Lorem ipsum dolor sit amet elit...",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
-      },
-      {
-        "img": "img/blog-3.jpg",
-        "category": "Mobile App",
-        "author": "Daniel Martin",
-        "date": "30 Jan 2023",
-        "title": "Lorem ipsum dolor sit amet elit...",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
-      }
-    ]
-  },
   "team": {
     "subtitle": "Our Team",
     "title": "Meet our expert Team",
     "members": [
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+1",
+        "name": "Amirul Islam",
+        "designation": "Founder & CEO ( MandsIT )",
+        "img": "img/team/amirul.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -242,9 +324,9 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+2",
+        "name": "Mehedi Hassan",
+        "designation": "Head of Product ( MandsIT)",
+        "img": "img/team/mehedi.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -253,9 +335,9 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+3",
+        "name": "Syed Bacchu",
+        "designation": "Sr. Software Engineer ( Backend) ( MandsIT )",
+        "img": "img/team/bacchu.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -264,9 +346,9 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+4",
+        "name": "Md. Mahbubul Alam",
+        "designation": "Software Engineer ( Flutter App Team) ( MandsIT )",
+        "img": "img/team/mahbubul.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -275,9 +357,31 @@
         }
       },
       {
-        "name": "Full Name",
-        "designation": "Designation",
-        "img": "https://placehold.co/300x400?text=Member+5",
+        "name": "Arafat Rahman",
+        "designation": "Junior Software Engineer ( MandsIT )",
+        "img": "img/team/arafat.png",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Md. Samaul Islam",
+        "designation": "Full Stack Software Engineer ( MandsIT )",
+        "img": "img/team/samaul.png",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "linkedin": "#"
+        }
+      },
+      {
+        "name": "Alina Khanam",
+        "designation": "Support and Implementation Engineer ( MandsIT )",
+        "img": "img/team/alina.png",
         "social": {
           "facebook": "#",
           "twitter": "#",
@@ -290,39 +394,35 @@
   "contact": {
     "subtitle": "Get In Touch",
     "title": "Contact for any query",
-    "address": "23 rank Str, NY",
-    "phone": "+012 3456 7890",
-    "email": "info@example.com",
+    "address": "23 Shawrapara, Dhaka",
+    "phone": "+880 1923867362",
+    "email": "mandsitbd@gmail.com",
     "mapUrl": "https://www.google.com/maps/embed?pb=..."
   },
   "footer": {
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.",
+    "desc": "MandsIT is a dynamic and innovative technology team that specializes in providing cutting-edge software solutions and services to clients across various industries.",
     "links": [
       {
         "name": "About us",
-        "url": ""
+        "url": "#about"
       },
       {
         "name": "Contact us",
-        "url": ""
+        "url": "#contact"
       },
       {
         "name": "Our Services",
-        "url": ""
+        "url": "#services"
       },
       {
         "name": "Our Projects",
-        "url": ""
-      },
-      {
-        "name": "Latest Blog",
-        "url": ""
+        "url": "#projects"
       }
     ],
     "contact": {
-      "address": "123 Street, New York, USA",
-      "phone": "+123 456 7890",
-      "email": "info@exmple.con"
+      "address": "23 Shawrapara, Dhaka",
+      "phone": "+880 1923867362",
+      "email": "mandsitbd@gmail.com"
     }
   }
 }
