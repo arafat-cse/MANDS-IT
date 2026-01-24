@@ -39,7 +39,7 @@ export default function Footer() {
               <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Privacy Policy</a>
               <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Helps</a>
               <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>FQAs</a>
-              <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Contact</a>
+              <a href="#contact" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Contact</a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -57,7 +57,7 @@ export default function Footer() {
             <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>{new Date().getFullYear()} </a>, All right reserved.</span>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <span className="text-light">Designed By <a href="https://mandsit.com" className="text-secondary">Mands It</a></span>
+            <span className="text-light">Designed By <a href="https://mandsit.bd" className="text-secondary">Mands It</a></span>
           </div>
         </div>
       </div>
