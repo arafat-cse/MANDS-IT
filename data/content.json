@@ -1,7 +1,7 @@
 {
   "topbar": {
     "address": "23 Shawrapara, Dhaka",
-    "email": "info@mandsit.com",
+    "email": "mandsitbd@gmail.com",
     "note": "Note : We help you to Grow your Business",
     "social": [
       {
@@ -42,15 +42,11 @@
         "url": "#projects"
       },
       {
-        "name": "Blog Posts",
-        "url": "#blog"
-      },
-      {
         "name": "Contact",
         "url": "#contact"
       }
     ],
-    "phone": "+8801756262626"
+    "phone": "+880 1923867362"
   },
   "carousel": [
     {
@@ -85,13 +81,13 @@
     }
   ],
   "about": {
-    "img1": "img/about-1.jpg",
-    "img2": "img/about-2.jpg",
+    "img1": "img/about/about-1.jpg",
+    "img2": "img/about/about-2.jpg",
     "subtitle": "About Us",
     "title": "About Mands It Agency And It's Innovative IT Solutions",
-    "desc1": "Mandsit is a reliable all-in-one service platform dedicated to delivering innovative and result-driven solutions. We offer a wide range of services including IT solutions, web design, web development, app design, app development, and more—carefully tailored to meet your specific business and personal needs.",
-    "desc2": "Our team of experienced professionals is committed to providing high-quality, efficient, and scalable services using modern technology and best practices. We focus on understanding our clients’ goals to deliver solutions that are not only functional but also impactful.",
-    "desc3": "At Mandsit, customer satisfaction, transparency, and excellence are our top priorities. We aim to build long-term partnerships by offering trusted services that help you grow with confidence."
+    "desc1": "MandsIT Team is a dynamic and innovative technology Team that specializes in providing cutting-edge software solutions and services to clients across various industries. Founded with a vision to empower businesses with transformative digital solutions, MandsIT has emerged as a trusted partner for organizations seeking to leverage technology to drive growth, efficiency, and competitive advantage.",
+    "desc2": "One of the key strengths of MandsIT lies in its team of highly skilled and experienced professionals who are passionate about technology and dedicated to delivering excellence in every project they undertake. From software engineers and developers to project managers and consultants, the MandsIT team embodies a culture of collaboration, innovation, and continuous learning, ensuring that clients receive best-in-class solutions and unparalleled support throughout their journey.",
+    "desc3": "Overall, MandsIT stands out as a trusted partner for businesses seeking innovative software solutions and unparalleled technical expertise. With its customer-centric approach, commitment to excellence, and relentless pursuit of innovation, MandsIT continues to empower organizations to thrive in the digital age."
   },
   "services": {
     "subtitle": "Our Services",
@@ -312,36 +308,6 @@
       }
     ]
   },
-  "blog": {
-    "subtitle": "Our Blog",
-    "title": "Latest Blog & News",
-    "items": [
-      {
-        "img": "img/blog-1.jpg",
-        "category": "Web Design",
-        "author": "Daniel Martin",
-        "date": "24 March 2023",
-        "title": "Lorem ipsum dolor sit amet elit...",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
-      },
-      {
-        "img": "img/blog-2.jpg",
-        "category": "Development",
-        "author": "Daniel Martin",
-        "date": "23 April 2023",
-        "title": "Lorem ipsum dolor sit amet elit...",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
-      },
-      {
-        "img": "img/blog-3.jpg",
-        "category": "Mobile App",
-        "author": "Daniel Martin",
-        "date": "30 Jan 2023",
-        "title": "Lorem ipsum dolor sit amet elit...",
-        "desc": "Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum..."
-      }
-    ]
-  },
   "team": {
     "subtitle": "Our Team",
     "title": "Meet our expert Team",
@@ -429,38 +395,34 @@
     "subtitle": "Get In Touch",
     "title": "Contact for any query",
     "address": "23 Shawrapara, Dhaka",
-    "phone": "+880 123 456 7890",
-    "email": "info@mandsit.com",
+    "phone": "+880 1923867362",
+    "email": "mandsitbd@gmail.com",
     "mapUrl": "https://www.google.com/maps/embed?pb=..."
   },
   "footer": {
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.",
+    "desc": "MandsIT is a dynamic and innovative technology team that specializes in providing cutting-edge software solutions and services to clients across various industries.",
     "links": [
       {
         "name": "About us",
-        "url": ""
+        "url": "#about"
       },
       {
         "name": "Contact us",
-        "url": ""
+        "url": "#contact"
       },
       {
         "name": "Our Services",
-        "url": ""
+        "url": "#services"
       },
       {
         "name": "Our Projects",
-        "url": ""
-      },
-      {
-        "name": "Latest Blog",
-        "url": ""
+        "url": "#projects"
       }
     ],
     "contact": {
       "address": "23 Shawrapara, Dhaka",
-      "phone": "+880 123 456 7890",
-      "email": "info@mandsit.com"
+      "phone": "+880 1923867362",
+      "email": "mandsitbd@gmail.com"
     }
   }
 }
