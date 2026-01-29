@@ -1,3 +1,92 @@
+:root {
+    /* GLOBAL COLOR SYSTEM - Change your brand colors here */
+    --primary-color: #1842b6;
+    /* Deep Blue */
+    --secondary-color: #26d48c;
+    /* Bright Teal/Green */
+    --accent-color: #00D289;
+    /* Hover Color */
+
+    --text-color: #787878;
+    --heading-color: #000103;
+    --light-bg: #f2f2f2;
+
+    /* NAVBAR SETTINGS - Control Navbar Globally Here */
+    --navbar-bg: #ffffff;
+    /* Change this to change strictly Navbar background */
+    --navbar-items-text: #1842b6;
+    /* Change this to change Navbar text color */
+
+    /* Bootstrap Overrides */
+    --bs-primary: var(--primary-color);
+    --bs-secondary: var(--secondary-color);
+    --bs-body-color: var(--text-color);
+}
+
+/* GLOBAL NAVBAR UTILITY */
+.bg-global-navbar {
+    background-color: var(--navbar-bg) !important;
+}
+
+.color-global-navbar-text {
+    color: var(--navbar-items-text) !important;
+}
+
+/* Patch Bootstrap Utilities and Elements */
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: #14389b !important;
+    border-color: #14389b !important;
+}
+
+.btn-secondary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+    color: #fff !important;
+}
+
+.btn-secondary:hover {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+    color: #fff !important;
+}
+
+h1,
+h2,
+
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: var(--heading-color);
+}
+
 /*** Spinner Start ***/
 
 #spinner {
@@ -106,6 +195,7 @@
 /*** Topbar End ***/
 
 
+
 /*** Navbar Start ***/
 .navbar .navbar-nav {
     padding: 15px 0;
@@ -113,10 +203,10 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 10px;
-    color: var(--bs-white);
+    color: var(--navbar-items-text);
+    /* UPDATED: Use global navbar text color */
     font-size: 18px;
     outline: none;
-
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -168,7 +258,8 @@ html {
     left: 0;
     right: 0;
     z-index: 1020;
-    background: var(--bs-primary) !important;
+    background: var(--navbar-bg) !important;
+    /* UPDATED: Use global navbar bg color */
 }
 
 
