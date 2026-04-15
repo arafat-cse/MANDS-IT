@@ -22,7 +22,7 @@ export default function Home() {
               <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
                 <div style={{ position: 'relative', width: '100%', height: '100vh', minHeight: '600px' }}>
                   <Image
-                    src={item.img}
+                    src={`/${item.img}`}
                     alt={`MandsIT - ${item.title}`}
                     fill
                     priority={index === 0}
@@ -87,7 +87,7 @@ export default function Home() {
               <div className="h-100 position-relative">
                 <div style={{ position: 'relative', width: '100%', marginBottom: '25%' }}>
                   <Image
-                    src={data.about.img1}
+                    src={`/${data.about.img1}`}
                     alt="MandsIT team collaboration"
                     width={800}
                     height={600}
@@ -98,7 +98,7 @@ export default function Home() {
                 <div className="position-absolute w-75" style={{ top: '25%', left: '25%' }}>
                   <div style={{ position: 'relative', width: '100%' }}>
                     <Image
-                      src={data.about.img2}
+                      src={`/${data.about.img2}`}
                       alt="MandsIT office workspace"
                       width={800}
                       height={600}

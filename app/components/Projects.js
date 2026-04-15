@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Image from 'next/image';
 import data from '../../data/content.json';
 
 export default function Projects() {
@@ -20,7 +21,16 @@ export default function Projects() {
             <div key={index} className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay={`${0.1 * (index % 3)}s`}>
               <div className="project-item rounded overflow-hidden shadow-sm bg-white">
                 <div className="project-img-container position-relative overflow-hidden">
-                  <img src={item.img} className="img-fluid w-100" alt={item.title} style={{ transition: '0.5s' }} />
+                  <div style={{ position: 'relative', width: '100%', height: '250px' }}>
+                    <Image
+                      src={`/${item.img}`}
+                      alt={item.title}
+                      fill
+                      className="img-fluid"
+                      style={{ objectFit: 'cover', transition: '0.5s' }}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
+                  </div>
                   <div className="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center"
                     style={{ background: 'rgba(38, 212, 140, 0.9)', opacity: 0, transition: '0.5s', zIndex: 1 }}>
                     <a href="https://bndoc.vercel.app/" target="_blank" rel="noopener noreferrer"
@@ -52,7 +62,10 @@ export default function Projects() {
         .project-item:hover .project-overlay {
           opacity: 1 !important;
         }
-        .project-item:hover img {
+        .project-item :global(img) {
+          transition: transform 0.5s !important;
+        }
+        .project-item:hover :global(img) {
           transform: scale(1.1);
         }
         .scale-in {

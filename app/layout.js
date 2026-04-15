@@ -5,6 +5,8 @@ import Script from 'next/script';
 import Topbar from "./components/Topbar";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ClientOnly from './components/ClientOnly';
+import BackToTop from './components/BackToTop';
 
 export const metadata = {
   title: "MandsIT | Premium IT Solutions & Software Development in Dhaka",
@@ -172,17 +174,17 @@ export default function RootLayout({ children }) {
         <Topbar />
         <Navbar />
 
-        {children}
+        <ClientOnly>
+          {children}
+        </ClientOnly>
 
         <Footer />
-        <a href="#" className="btn btn-secondary btn-square rounded-circle back-to-top" aria-label="Scroll back to top of page"><i className="fa fa-arrow-up text-white" aria-hidden="true"></i></a>
+        <BackToTop />
 
-        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" strategy="beforeInteractive"></Script>
+        {/* Keep Bootstrap JS for carousel functionality */}
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" strategy="afterInteractive"></Script>
+        {/* WOW.js for scroll animations */}
         <Script src="/lib/wow/wow.min.js" strategy="afterInteractive"></Script>
-        <Script src="/lib/easing/easing.min.js" strategy="afterInteractive"></Script>
-        <Script src="/lib/waypoints/waypoints.min.js" strategy="afterInteractive"></Script>
-        <Script src="/js/main.js" strategy="lazyOnload"></Script>
       </body>
     </html>
   );

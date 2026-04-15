@@ -1,6 +1,6 @@
 /* Team Section Styles */
 .team-item {
-  background: #f2f2f2;
+  background: var(--light-bg);
   border-radius: 8px;
   overflow: hidden;
   transition: .5s;
@@ -8,7 +8,7 @@
 
 .team-header {
   height: 120px;
-  background: #26d48c;
+  background: var(--secondary-color);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
   position: relative;
   margin-bottom: -50px;
@@ -25,7 +25,7 @@
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 4px solid #26d48c;
+  border: 4px solid var(--secondary-color);
   object-fit: cover;
   padding: 3px;
   background: white;
@@ -47,14 +47,14 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: #26d48c;
+  background: var(--secondary-color);
   color: white;
   margin: 0 5px;
   transition: .3s;
 }
 
 .team-social-icon:hover {
-  background: #00D289;
+  background: var(--accent-color);
   filter: brightness(0.9);
 }
 
@@ -67,7 +67,6 @@
 .project-img-container {
   position: relative;
   margin: 15px;
-  /* Give space for the background shapes to peek out */
   z-index: 1;
 }
 
@@ -76,7 +75,6 @@
   width: 100%;
   position: relative;
   z-index: 1;
-  /* Image on top */
 }
 
 .project-img-container::before {
@@ -86,8 +84,7 @@
   left: -15px;
   width: 100%;
   height: 100%;
-  background: #00D289;
-  /* Green */
+  background: var(--secondary-color);
   border-radius: 10px;
   z-index: -1;
 }
@@ -99,8 +96,7 @@
   right: -15px;
   width: 100%;
   height: 100%;
-  background: #1842b6;
-  /* darker blue */
+  background: var(--primary-color);
   border-radius: 10px;
   z-index: -2;
 }

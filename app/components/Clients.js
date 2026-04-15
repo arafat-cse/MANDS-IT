@@ -1,6 +1,7 @@
 "use client";
 import data from '../../data/content.json';
 import Slider from "react-slick";
+import Image from 'next/image';
 // css imported in layout.js
 
 export default function Clients() {
@@ -50,7 +51,16 @@ export default function Clients() {
           {data.clients.logos.map((client, index) => (
             <div key={index} className="text-center px-2"> {/* Added padding */}
               {client.img ? (
-                <img src={client.img} alt={client.name} className="img-fluid mx-auto" style={{ maxHeight: '60px', filter: 'grayscale(100%)', opacity: '0.7' }} />
+                <div style={{ position: 'relative', width: '200px', height: '60px', margin: '0 auto' }}>
+                  <Image
+                    src={client.img}
+                    alt={client.name}
+                    fill
+                    className="img-fluid mx-auto"
+                    style={{ objectFit: 'contain', filter: 'grayscale(100%)', opacity: '0.7' }}
+                    sizes="200px"
+                  />
+                </div>
               ) : (
                 <div style={{ fontWeight: 'bold', fontSize: '1.2rem', color: '#555' }} className="d-flex justify-content-center align-items-center h-100 py-3">
                   {client.name}
