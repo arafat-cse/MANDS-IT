@@ -1,13 +1,15 @@
 import data from '../data/content.json';
-import Team from './components/Team';
+// import Team from './components/Team';
 import Projects from './components/Projects';
 import Clients from './components/Clients';
 import ProgrammingUses from './components/Programing-uses';
 import MissionVision from './components/MissionVision';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
+      <div id="main-content">
       {/* Carousel Start */}
       <div className="container-fluid px-0">
         <div id="carouselId" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
@@ -18,7 +20,17 @@ export default function Home() {
           <div className="carousel-inner" role="listbox">
             {data.carousel.map((item, index) => (
               <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-                <img src={item.img} className="img-fluid" alt="Slide" />
+                <div style={{ position: 'relative', width: '100%', height: '100vh', minHeight: '600px' }}>
+                  <Image
+                    src={item.img}
+                    alt={`MandsIT - ${item.title}`}
+                    fill
+                    priority={index === 0}
+                    className="img-fluid"
+                    style={{ objectFit: 'cover' }}
+                    sizes="100vw"
+                  />
+                </div>
                 <div className="carousel-caption">
                   <div className="container carousel-content">
                     <h6 className="text-secondary h4 animated fadeInUp">{item.subtitle}</h6>
@@ -27,11 +39,12 @@ export default function Home() {
                     <a
                       href="#mission-vision"
                       className="btn btn-secondary rounded-pill px-5 py-3 text-white"
+                      aria-label="Read more about MandsIT mission and vision"
                     >
                       Read More
                     </a>
                     {/* <a href="#" className="me-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a> */}
-                    <a href="#contact" className="ms-2"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                    <a href="#contact" className="ms-2" aria-label="Contact MandsIT for consultation"><button type="button" className="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
                   </div>
                 </div>
               </div>
@@ -72,9 +85,27 @@ export default function Home() {
           <div className="row g-5">
             <div className="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
               <div className="h-100 position-relative">
-                <img src={data.about.img1} className="img-fluid w-75 rounded" alt="" style={{ marginBottom: '25%' }} />
+                <div style={{ position: 'relative', width: '100%', marginBottom: '25%' }}>
+                  <Image
+                    src={data.about.img1}
+                    alt="MandsIT team collaboration"
+                    width={800}
+                    height={600}
+                    className="rounded"
+                    style={{ width: '75%', height: 'auto' }}
+                  />
+                </div>
                 <div className="position-absolute w-75" style={{ top: '25%', left: '25%' }}>
-                  <img src={data.about.img2} className="img-fluid w-100 rounded" alt="" />
+                  <div style={{ position: 'relative', width: '100%' }}>
+                    <Image
+                      src={data.about.img2}
+                      alt="MandsIT office workspace"
+                      width={800}
+                      height={600}
+                      className="rounded"
+                      style={{ width: '100%', height: 'auto' }}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -87,6 +118,7 @@ export default function Home() {
               <a
                 href="#mission-vision"
                 className="btn btn-secondary rounded-pill px-5 py-3 text-white"
+                aria-label="View more details about MandsIT company"
               >
                 More Details
               </a>
@@ -112,7 +144,7 @@ export default function Home() {
                       <i className={`${item.icon} fa-7x mb-4 text-primary`}></i>
                       <h4 className="mb-3">{item.title}</h4>
                       <p className="mb-4">{item.desc}</p>
-                      <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                      <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill" aria-label={`Learn more about ${item.title} service`}>Read More</a>
                     </div>
                   </div>
                 </div>
@@ -132,7 +164,7 @@ export default function Home() {
       {/* Projects End */}
 
       {/* Team Start */}
-      <Team />
+      {/* <Team /> */}
       {/* Team End */}
 
       {/* Our Clients Start */}
@@ -153,33 +185,33 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
                 <div className="d-flex bg-light p-3 rounded">
                   <div className="flex-shrink-0 btn-square bg-secondary rounded-circle" style={{ width: '64px', height: '64px' }}>
-                    <i className="fas fa-map-marker-alt text-white"></i>
+                    <i className="fas fa-map-marker-alt text-white" aria-hidden="true"></i>
                   </div>
                   <div className="ms-3">
                     <h4 className="text-primary">Address</h4>
-                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" className="h5">{data.contact.address}</a>
+                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" rel="noopener noreferrer" className="h5" aria-label="View MandsIT office location on Google Maps">{data.contact.address}</a>
                   </div>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
                 <div className="d-flex bg-light p-3 rounded">
                   <div className="flex-shrink-0 btn-square bg-secondary rounded-circle" style={{ width: '64px', height: '64px' }}>
-                    <i className="fa fa-phone text-white"></i>
+                    <i className="fa fa-phone text-white" aria-hidden="true"></i>
                   </div>
                   <div className="ms-3">
                     <h4 className="text-primary">Call Us</h4>
-                    <a className="h5" href="tel:+0123456789" target="_blank">{data.contact.phone}</a>
+                    <a className="h5" href={`tel:${data.contact.phone}`} aria-label={`Call MandsIT at ${data.contact.phone}`}>{data.contact.phone}</a>
                   </div>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
                 <div className="d-flex bg-light p-3 rounded">
                   <div className="flex-shrink-0 btn-square bg-secondary rounded-circle" style={{ width: '64px', height: '64px' }}>
-                    <i className="fa fa-envelope text-white"></i>
+                    <i className="fa fa-envelope text-white" aria-hidden="true"></i>
                   </div>
                   <div className="ms-3">
                     <h4 className="text-primary">Email Us</h4>
-                    <a className="h5" href="mailto:info@example.com" target="_blank">{data.contact.email}</a>
+                    <a className="h5" href={`mailto:${data.contact.email}`} aria-label={`Email MandsIT at ${data.contact.email}`}>{data.contact.email}</a>
                   </div>
                 </div>
               </div>
@@ -215,6 +247,7 @@ export default function Home() {
         </div>
       </div>
       {/* Contact End */}
+      </div>
     </>
   );
 }

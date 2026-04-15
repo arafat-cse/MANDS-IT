@@ -2,14 +2,17 @@
     /* GLOBAL COLOR SYSTEM - Change your brand colors here */
     --primary-color: #1842b6;
     /* Deep Blue */
-    --secondary-color: #26d48c;
-    /* Bright Teal/Green */
-    --accent-color: #00D289;
-    /* Hover Color */
+    --secondary-color: #00B894;
+    /* Mint Green - WCAG AA Compliant */
+    --accent-color: #6C5CE7;
+    /* Purple - Modern accent */
 
-    --text-color: #787878;
-    --heading-color: #000103;
-    --light-bg: #f2f2f2;
+    --text-color: #2D3436;
+    /* Dark Gray - WCAG AA compliant contrast */
+    --heading-color: #1A1A1A;
+    /* Near black for headings */
+    --light-bg: #F8F9FA;
+    /* Off-white background */
 
     /* NAVBAR SETTINGS - Control Navbar Globally Here */
     --navbar-bg: #ffffff;
@@ -85,6 +88,37 @@ h6,
 .h5,
 .h6 {
     color: var(--heading-color);
+}
+
+/* Accessibility - Focus Indicators */
+*:focus-visible {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--primary-color);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100000;
+}
+
+.skip-link:focus {
+    top: 0;
 }
 
 /*** Spinner Start ***/

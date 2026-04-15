@@ -1,0 +1,12 @@
+export default function robots() {
+  return {
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+    ],
+    sitemap: 'https://mandsit.com/sitemap.xml',
+  };
+}
