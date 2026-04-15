@@ -45,6 +45,7 @@ For detailed deployment instructions, please verify the **[`vercel.md`](./vercel
 
 The easiest way to deploy is using [Vercel](https://vercel.com/):
 
+update
 ```bash
 npx vercel
 ```
